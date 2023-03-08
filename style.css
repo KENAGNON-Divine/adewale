@@ -1,0 +1,197 @@
+*{ padding: 0;margin: 0;font-family: 'Times New Roman', Times,sans-serif;}
+
+/*Navbar*/
+.navbar,.icone,.corps,.accueil{display: flex;align-items: center;}
+.navbar{justify-content: space-between;}
+.logo{padding-top: 0;width: 200px;height: 150px;position: relative; }
+.menu{ margin-left: 8%;display: flex;width: 100%;}
+.menu a{text-decoration: none;color: rgba(53, 12, 0, 0.919);font-size: large;padding-left: 2rem;padding-right: 2rem;display: block;margin: 1em;}
+.menu a:hover{border-bottom: solid  rgb(255, 200, 60) 2px;cursor: pointer;transition: 0.5s;width: fit-content;}
+#search-icone, #shop-icone{color: rgba(53, 12, 0, 0.919);margin-right: 15px}
+.toggle-button{position: relative;top: .75rem; right: 1rem;display: none;flex-direction: column;justify-content: space-between;width: 8%;height: 20px;}.toggle-button .bar{height: 3px;width: 100%;background-color: rgb(27, 2, 2);border-radius: 10px;}
+
+/*body*/
+.corps{display: flex; width: 100%;justify-content: space-evenly;}
+.text1{width: 100%; margin-left: 2%; margin-bottom: 0;}
+.text{padding-left:5%; display: flex;  flex-direction: column; width: 45%; justify-content: center;}
+.text .titre{ color: rgba(53, 12, 0, 0.919); font-size:220%;width: 100%; margin-bottom:2%; text-align: justify;}
+.text p{font-size: medium;font-weight: lighter;width: 80%;}
+.text .btn{border:solid rgba(53, 12, 0, 0.919) 1px; color: rgb(255, 200, 60);background-color: #fff;font-size: large;letter-spacing: 1px;padding: 2%;border-radius: 50px; font-weight: 600;width: 45%; margin-left: 10%;}
+.image{width: 80%;}
+.image img{margin-bottom: 0;position: relative;width: 100%; height: 102%; top: 5px;}
+
+
+/*acceuil*/
+.accueil{ height: auto; width: 100%;background-color: rgba(205 214 229 / 42%); padding: 0;}
+.accueil *{flex-direction: column; width: 100%;}
+.accueil .LogoAdéwalé{width: 60%; height: 40%;align-items: center;}
+.bloc{ padding: 5%; width: 70%;}
+.nombre{color: rgb(255, 200, 60) ;font-size: medium;padding-bottom:2%;}
+.title{ color:  rgba(53, 12, 0, 0.919);font-size: medium; padding-bottom:2%;}
+.blocp{ font-size: medium;padding-bottom:10% 0;}
+.LogoAdéwalé{position: relative;width: 600px;height: 500px;}
+.LogoAdéwalé img{position: absolute;z-index: 2; width: 100%;height: 100%;}
+ .fond1{background-color:  rgba(53, 12, 0, 0.919) ;border-radius: 100%;width: 100px;height:100px;margin-right: 100%;margin-bottom: 100%;}
+ .text2 {position: relative;width: 100%;height: 100%;padding-top: 5%;}
+ #bloc4{position: absolute;z-index: 2 }
+ .fond2{background-color:  rgb(255, 200, 60);border-radius: 100%;width: 200px;height:200px;margin-left: 60%;}
+
+ /*Produits*/
+
+.produit{width: 100%;}
+.haut{display: flex;justify-content: space-between;width: 90%;padding: 2%;margin-bottom: 0;}
+.produit .h2 div{height: 1vh;width: 10vh;background-color: rgb(255, 200, 60);border-radius: 40px}
+.haut h2{font-size: xx-large;color: rgba(53, 12, 0, 0.919);}
+.bouton{width: 10%;}
+.bouton input{background-color: rgb(255, 200, 60);border-radius: 4px;color: rgba(53, 12, 0, 0.919);}
+.product{display: flex; justify-content: center; align-items: center; width: 100%; height: auto; }
+.contener{background-color: rgb(255, 200, 60);flex-direction: column;width: 25%;margin: 5%;border-radius: 17px;padding :2% 0 0 0;box-shadow: rgba(0, 0, 0, 0.42) 0px 5px 15px;}
+.bas{ display: flex;width: 80}
+.contener .like{color: rgba(53, 12, 0, 0.919);text-align: right;justify-content: right;position: relative;margin:0 5% 0 0;}
+.contener p{color: black;font-weight: bold;text-align: justify;font-size: x-larger;padding: 7% 0 7% 7%;width: 70%;}
+.contener h1{color: rgba(53, 12, 0, 0.919);margin-bottom: 5%;font-size: large;}
+.contener h5{color: rgba(216, 22, 22, 0.923);text-decoration: line-through;padding:0 0 0 10%;}
+#shop1 .bas,#shop4 .bas{display: flex;justify-content: space-between;padding-bottom: 0;width: 90%;}
+#shop1 .bas img, #shop4 .bas img{padding: 10%;margin-top: 2%;border-radius: 0 10px 3px 17px;background: #fff;width: 30px;height: 20px;}
+#shop1 .bas .texta{padding-bottom: 0;margin:10% 0 0 0;width: 30%}
+#shop2 .bas{display: flex;justify-content: space-between;padding-bottom: 0;width: 95%;}
+#shop2 .bas img,#shop3 .bas img{padding:10%;margin-top:2%;border-radius: 0 10px 3px 17px;background: #fff;width: 30px; height: 20px;}
+#shop2 .bas .texta{padding:0 ;margin:15% 0 0 0;width:  30%}
+#shop3 .bas{display: flex;justify-content: space-between;padding-right: 30%;width: 95%;}
+#shop3 .bas .texta{padding:0 ;margin:15% 0 0 5%;width:  30%}
+#shop4 img{ padding-left: 15%;}
+#shop4 .bas .texta{padding: 0;margin:12% 0 0 0;width: 35%}
+
+/*temoignage*/
+#temoignage{width: auto; height: 100%;background-color: rgba(160, 131, 187, 0.401);padding: 2%;}
+#temoignage .h1 h1{ font-size: xx-large;color: rgba(53, 12, 0, 0.919);}
+#temoignage .h1 div{height: 1vh; width: 10vh; background-color: rgb(255, 200, 60);border-radius: 40px;}
+#temoignage .h1{display: flex; flex-direction: column;align-items: left; width: 30%; margin-bottom: 3%;}
+.container1{ padding: 3%;width: 20%; margin: 0 0 3% 15%;position: relative;justify-content: center;align-items: center;border: solid rgba(53, 12, 0, 0.919) 15px; border-right: 0;}
+.container2{background-color: rgb(255, 200, 60);border: solid black 1px;width: 60vw;padding: 5%;display: flex;align-items: center;position: relativ}
+.textpart{display: flex;flex-direction: column;padding: 0;margin-right: 0;}
+.text{font-size: x-large;font-weight: bold;width: 80%;text-align: justify;margin: 0 5% 5% 0;}
+.textc{display:flex;justify-content: space-evenly;width: 80%;padding: 5%;margin-bottom: 2%;}
+.textc div{ width: 100%;margin-left: 10%;}
+.textc p{font-size: medium; margin:0 0 5% 0;}
+.textc img{ width: 20%; height: 20%;}
+.direction{margin:5% 0 0 10%;width: 20vh;display: flex;justify-content: space-around;}
+.direction #font{border: solid rgba(53, 12, 0, 0.919) 2px;  border-radius: 100%;padding: 15% 12%;}
+.direction #font:hover{color: rgb(255, 200, 60); background-color:rgba(53, 12, 0, 0.919) ;}
+.imgpart{position: relative;height: 90%;}
+.rectangle{border: solid rgba(53, 12, 0, 0.919) 10px ;border-left: 0;height: 106%;top: 0;left: 73%; bottom: 0; margin: auto;width: 30%;position: absolute;}
+.cont-dot #dot2,.cont-dot #dot3, .cont-dot #dot4{color: rgb(255, 255, 255);margin-bottom: 120%;}
+.cont-dot #dot1{ color: rgba(53, 12, 0, 0.919);margin-bottom: 120%;}
+.cont-dot{height: 50%;display: flex;flex-direction: column;margin-left:5%;margin-top: 20%;margin-bottom: 20%;}
+
+/*Contact*/
+#contact{width: 90%; height: 70vh;background-color: rgba(53, 12, 0, 0.919);padding: 5%;display: flex;justify-content: center;}
+#contact img{width: 40vw;height: 45vh;margin-top: 7%;} 
+#contact .form{width: 40%; height: auto; margin-left: 5%;}
+#contact h1{color: #fff; margin: 0 0 0 10%; font-size: xx-large;}
+#contact form{padding: 5%;display: flex;flex-direction: column;align-items: center;}
+input{margin-top:7%;width: 80%;background-color:#10101080 ;color: #fff;border: none;padding: 5%;}
+#message{padding: 5% 5% 10% 5%;}
+#send{width: 25%;background-color: rgb(255, 200, 60);color: rgba(53, 12, 0, 0.919);padding: 2%;font-size: medium;position: relative;margin-left: 65%;}
+.bottom{display: flex;padding: 3%;justify-content: space-around;}
+.bottom h3{color: rgb(255, 200, 60);padding-bottom: 7%;}
+.bottom p{color: #fff;font-size: medium;}
+
+/*Footer*/
+
+.footer .info{display: flex;width: 100%;height: auto;}
+.footer .info .LogoAdéwalé{width: 40vw;height:60vh;justify-content: center;}
+.footer .part0{ display: flex; flex-direction: column; width: 60%;}
+.part0 .down{padding: 15% 0 0 25%;font-size: small;}
+.footer .part1{ display: flex; justify-content: space-evenly; width: 100%; height: auto; padding-top: 5%;}
+.footer .part1 h2{ text-transform: uppercase; margin-bottom: 10%;}
+.part2{   display: flex;flex-direction: column;}
+.part2 a{text-decoration: none;color: #000;padding: 2%;}
+#font1{margin-left: 10%;}
+#font, #font1{ color: rgba(53, 12, 0, 0.919); background-color: rgb(255, 200, 60); margin-left: 10%; padding: 5%; border-radius: 100%;}
+
+
+
+@media only screen and (max-width: 900px) and (min-width: 200px)  {
+
+    /*header*/
+    .logo{width: 100px;height: 30%;margin-bottom: 3px;margin-right: 10px;}
+    .toggle-button{margin-bottom: 2rem;display: flex;}
+    .navbar .menu a{margin-left: 0;padding: 1px;font-size: small;color: rgb(27, 2, 2);}
+    .navbar{width: 100%;display: flex;justify-content: space-between;}
+    .menu{display: none;background-color: rgb(255, 200, 60);align-items: center;width: 100%;flex-direction: column;margin-right: 1rem; }
+    .navbar .menu.active{display: flex; }
+    .text p{font-size: 80%;width: 90%;}
+    .text .titre{font-size:166%;}
+    .text{font-size: 65%;}
+    .text .btn{font-size: 55%;letter-spacing: 0;width: 56%;}
+    .image img{}
+
+
+        /*accueil*/
+ .accueil{background-color:hsla(218, 32%, 85%, 1.42);
+    opacity: 1.7;
+     padding-left: 2%;}
+ .accueil .LogoAdéwalé{width: 0; height: 0;}
+ .fond2{ height:200px;background-color: rgba(205 214 229 / 42%); width: 0;}
+ .fond1{ width: 0px;height:0px;}  
+ .blocp{font-size: 80%;text-align: justify;}
+ .text1{ width: 110%; margin-left: 2%; margin-bottom: 7%;}
+ .text2{width: 110%; margin-left: 2%;}
+ .title{font-size: 92%;}
+ .nombre{font-size: 95%; text-align: left; padding-left: 10%;}
+ #bloc1{position: relative;}
+ #bloc2{}
+ #bloc3{padding-top: 10%;}
+   /*Produit*/
+   .product{display: flex;flex-direction: column;width: 100%;}
+   .produit .h2 div {height: 0.5vh; width: 5vh;}
+   .contener{flex-direction: column;width: 65%;}
+   .bas{display: flex;width: 100%;}
+   .contener p{color: black;font-size: medium;padding: 5% 0 5% 10%;width: 70%;}
+   .contener h1{color: rgba(53, 12, 0, 0.919); font-size: 65%;}
+   .contener h5{ font-size: 50%; padding:0 0 0 2%;}
+   .haut h2{ font-size: 100%; color: rgba(53, 12, 0, 0.919);}
+   .bouton{ width: 30%;}
+   .bouton input{width: 100%;}
+   #shop1 .bas img,#shop4 .bas img,#shop2 .bas img,#shop3 .bas img{border-radius: 0 10px 0 17px;}
+
+
+    /*Contact*/
+    #contact{ width: 100%;height: auto; padding: 4% 0; }
+    #contact .form{ width: 90%; margin-left: 0;}
+    #contact img{width: 0;height: 0;}
+    .bottom {justify-content: space-between;}
+    .bottom p{font-size: smaller;}
+    .bottom h3{font-size: medium;}
+    #send{width: 35%;}
+
+    /*footer*/
+    .footer .info .LogoAdéwalé{width: 30%;height:auto;}
+    .footer .part0{width: 70%;}
+    .part1 h2{font-size: 50%;width: 100%; text-align: center;}
+    .part2 a{font-size: 80%;padding: 2;}
+    .part3{ width: 60%;margin-left: 5%;}
+    .info p{font-size: 5%;padding-bottom: 10%;}
+    .info{width: 100%;}
+
+
+    /*Témoignage*/
+    .container1{ border: solid rgba(53, 12, 0, 0.919) 3px; width: 20%; margin: 0 0 3% 10%;border-right: 0;}
+    .container2{width: 75vw;padding: 0;    }
+   .container2 .text{font-size: 65%; padding-top: 10%;}
+    .rectangle{height: 100%;top: -4px;left: 78%;border: solid rgba(53, 12, 0, 0.919) 2px;border-left: 0;}
+    .textc img{width:20%;}
+    .imgpart img{width: 105%;}
+    .textc h2{ font-size: x-small;}
+    .textc p{font-size: 43%;padding-top: 2%; }
+    .direction{margin:2% 0 7% 5%; width: 10vh; justify-content: right; }
+    .direction #font{padding: 10% 7%;}
+    .textpart{height: 70%; padding:0 6px 0 6px; }
+    #temoignage .h1 h1{font-size: 100%; width: 130%;}
+    #temoignage .h1 div{height: 0.5vh; width: 15vw;        }
+    .cont-dot #dot1,.cont-dot #dot2,.cont-dot #dot3,.cont-dot #dot4{margin-bottom: 125%; }
+    .cont-dot #dot2,.cont-dot #dot4{color:rgb(255, 200, 60);}
+    .cont-dot { margin: 15% 2% 15% 5%;     display: flex;
+    flex-direction: column; }
+}
