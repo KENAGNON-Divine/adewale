@@ -133,7 +133,7 @@ input{margin-top:7%;width: 80%;background-color:#10101080 ;color: #fff;border: n
     opacity: 1.7;
      padding-left: 2%;}
  .accueil .LogoAdéwalé{width: 0; height: 0;}
- .fond2{ height:200px;background-color: rgba(205 214 229 / 42%); width: 0;}
+ .fond2{ height:200px;background-color: rgb(169, 222, 255); width: 0;}
  .fond1{ width: 0px;height:0px;}  
  .blocp{font-size: 80%;text-align: justify;}
  .text1{ width: 110%; margin-left: 2%; margin-bottom: 7%;}
